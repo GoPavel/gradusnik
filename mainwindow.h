@@ -3,17 +3,15 @@
 
 #include <QMainWindow>
 #include <QtCharts/QLineSeries>
-#include <QtCharts/QChartView>
 #include "dialogopenfile.h"
-
-QT_CHARTS_USE_NAMESPACE
+#include "chartview.h"
 
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
 private:
-    QChartView* chartView;
+    ChartView* chartView;
 
 public:
     MainWindow(QWidget *parent = 0);

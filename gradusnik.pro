@@ -25,7 +25,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    dialogopenfile.cpp
+    dialogopenfile.cpp \
+    chart.cpp \
+    chartview.cpp
 
 HEADERS  += mainwindow.h \
-    dialogopenfile.h
+    dialogopenfile.h \
+    chart.h \
+    chartview.h

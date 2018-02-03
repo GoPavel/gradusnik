@@ -9,7 +9,7 @@ DialogOpenFile::DialogOpenFile(QWidget *parent): QDialog(parent) {
 
     butCancel = new QPushButton("cancel");
     butOk = new QPushButton("ok");
-    lineEditPath = new QLineEdit("Example: C:\\test.txt");
+    lineEditPath = new QLineEdit("/home/pavel/test.txt");
 
     //  <set layout>
     QHBoxLayout* butLayout = new QHBoxLayout();
